@@ -9,7 +9,7 @@
  *    IE on Windows Phone and in iOS.
  */
 
-html {
+.coco html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -22,7 +22,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 
-body {
+.coco body {
   margin: 0;
 }
 
@@ -30,12 +30,12 @@ body {
  * Add the correct display in IE 9-.
  */
 
-article,
-aside,
-footer,
-header,
-nav,
-section {
+.coco article,
+.coco aside,
+.coco footer,
+.coco header,
+.coco nav,
+.coco section {
   display: block;
 }
 
@@ -44,7 +44,7 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
+.coco h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -57,9 +57,9 @@ h1 {
  * 1. Add the correct display in IE.
  */
 
-figcaption,
-figure,
-main { /* 1 */
+.coco figcaption,
+.coco figure,
+.coco main { /* 1 */
   display: block;
 }
 
@@ -67,7 +67,7 @@ main { /* 1 */
  * Add the correct margin in IE 8.
  */
 
-figure {
+.coco figure {
   margin: 1em 40px;
 }
 
@@ -76,7 +76,7 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 
-hr {
+.coco hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
@@ -87,7 +87,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-pre {
+.coco pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
@@ -100,7 +100,7 @@ pre {
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 
-a {
+.coco a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
 }
@@ -110,7 +110,7 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
-abbr[title] {
+.coco abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
   text-decoration: underline dotted; /* 2 */
@@ -120,8 +120,8 @@ abbr[title] {
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 
-b,
-strong {
+.coco b,
+.coco strong {
   font-weight: inherit;
 }
 
@@ -129,8 +129,8 @@ strong {
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b,
-strong {
+.coco b,
+.coco strong {
   font-weight: bolder;
 }
 
@@ -139,9 +139,9 @@ strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code,
-kbd,
-samp {
+.coco code,
+.coco kbd,
+.coco samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
@@ -150,7 +150,7 @@ samp {
  * Add the correct font style in Android 4.3-.
  */
 
-dfn {
+.coco dfn {
   font-style: italic;
 }
 
@@ -158,7 +158,7 @@ dfn {
  * Add the correct background and color in IE 9-.
  */
 
-mark {
+.coco mark {
   background-color: #ff0;
   color: #000;
 }
@@ -167,7 +167,7 @@ mark {
  * Add the correct font size in all browsers.
  */
 
-small {
+.coco small {
   font-size: 80%;
 }
 
@@ -176,19 +176,19 @@ small {
  * all browsers.
  */
 
-sub,
-sup {
+.coco sub,
+.coco sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
-sub {
+.coco sub {
   bottom: -0.25em;
 }
 
-sup {
+.coco sup {
   top: -0.5em;
 }
 
@@ -199,8 +199,8 @@ sup {
  * Add the correct display in IE 9-.
  */
 
-audio,
-video {
+.coco audio,
+.coco video {
   display: inline-block;
 }
 
@@ -208,7 +208,7 @@ video {
  * Add the correct display in iOS 4-7.
  */
 
-audio:not([controls]) {
+.coco audio:not([controls]) {
   display: none;
   height: 0;
 }
@@ -217,7 +217,7 @@ audio:not([controls]) {
  * Remove the border on images inside links in IE 10-.
  */
 
-img {
+.coco img {
   border-style: none;
 }
 
@@ -225,7 +225,7 @@ img {
  * Hide the overflow in IE.
  */
 
-svg:not(:root) {
+.coco svg:not(:root) {
   overflow: hidden;
 }
 
@@ -237,11 +237,11 @@ svg:not(:root) {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
-input,
-optgroup,
-select,
-textarea {
+.coco button,
+.coco input,
+.coco optgroup,
+.coco select,
+.coco textarea {
   font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -253,8 +253,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 
-button,
-input { /* 1 */
+.coco button,
+.coco input { /* 1 */
   overflow: visible;
 }
 
@@ -263,8 +263,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button,
-select { /* 1 */
+.coco button,
+.coco select { /* 1 */
   text-transform: none;
 }
 
@@ -274,10 +274,10 @@ select { /* 1 */
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 
-button,
-html [type="button"], /* 1 */
-[type="reset"],
-[type="submit"] {
+.coco button,
+.coco html [type="button"], /* 1 */
+.coco [type="reset"],
+.coco [type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
 
@@ -285,10 +285,10 @@ html [type="button"], /* 1 */
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+.coco button::-moz-focus-inner,
+.coco [type="button"]::-moz-focus-inner,
+.coco [type="reset"]::-moz-focus-inner,
+.coco [type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -297,10 +297,10 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+.coco button:-moz-focusring,
+.coco [type="button"]:-moz-focusring,
+.coco [type="reset"]:-moz-focusring,
+.coco [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -308,7 +308,7 @@ button:-moz-focusring,
  * Correct the padding in Firefox.
  */
 
-fieldset {
+.coco fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
@@ -319,7 +319,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 
-legend {
+.coco legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
@@ -333,7 +333,7 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 
-progress {
+.coco progress {
   display: inline-block; /* 1 */
   vertical-align: baseline; /* 2 */
 }
@@ -342,7 +342,7 @@ progress {
  * Remove the default vertical scrollbar in IE.
  */
 
-textarea {
+.coco textarea {
   overflow: auto;
 }
 
@@ -351,8 +351,8 @@ textarea {
  * 2. Remove the padding in IE 10-.
  */
 
-[type="checkbox"],
-[type="radio"] {
+.coco [type="checkbox"],
+.coco [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -361,8 +361,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+.coco [type="number"]::-webkit-inner-spin-button,
+.coco [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -380,8 +380,8 @@ textarea {
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+.coco [type="search"]::-webkit-search-cancel-button,
+.coco [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -390,7 +390,7 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 
-::-webkit-file-upload-button {
+.coco ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
@@ -403,8 +403,8 @@ textarea {
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
 
-details, /* 1 */
-menu {
+.coco details, /* 1 */
+.coco menu {
   display: block;
 }
 
@@ -412,7 +412,7 @@ menu {
  * Add the correct display in all browsers.
  */
 
-summary {
+.coco summary {
   display: list-item;
 }
 
@@ -423,7 +423,7 @@ summary {
  * Add the correct display in IE 9-.
  */
 
-canvas {
+.coco canvas {
   display: inline-block;
 }
 
@@ -431,7 +431,7 @@ canvas {
  * Add the correct display in IE.
  */
 
-template {
+.coco template {
   display: none;
 }
 
@@ -442,6 +442,6 @@ template {
  * Add the correct display in IE 10-.
  */
 
-[hidden] {
+.coco [hidden] {
   display: none;
 }
